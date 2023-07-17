@@ -38,7 +38,7 @@ for (var i = 0; i < buttons.length; i++) {
       let percentageCalculation = (operand1 * operand2) / 100;
       result.value = eval(operand1 + operator + percentageCalculation);
     } else {
-      if (result.value == "0") {
+      if (result.value == "0" && value!='.') {
         result.value = value;
       } else {
         result.value += value;

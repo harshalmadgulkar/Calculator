@@ -9,6 +9,8 @@ body {
 
 h1 {
   text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 #calculator {
@@ -18,7 +20,7 @@ h1 {
   background-color: aqua;
   width: 25%;
   height: 70%;
-  margin: 5% auto;
+  margin: 2.5% auto;
   min-width: 300px;
   display: block;
 }
@@ -58,4 +60,18 @@ div #result {
 
 .button span {
   color: white;
+}
+
+/* GitHub Link Repository */
+#gitrepolink a {
+  color: rgb(255, 0, 200);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#gitrepolink a:hover {
+  color: rgb(255, 0, 200);
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
 }
